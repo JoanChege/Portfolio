@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joan Chege - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Joan Chege</h1>
+            <p>Computer Science Graduate | AI & Data Science Enthusiast | Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m Joan Chege, a Computer Science graduate from Strathmore University with experience in web development, healthcare technology, and AI. I have a passion for learning and applying new technologies to solve real-world problems. I'm currently based in Kilimani, Nairobi, and open to remote work opportunities in fields such as digital marketing, developer advocacy, and product consulting.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>Strathmore University</strong> - Bachelor of Science in Informatics and Computer Science (Expected Graduation: June 2024)</p>
+            <p>Relevant Coursework: Web Programming, Software Development, Cloud Computing, Computing for Bioinformatics, AI and Data Science.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>Flask</li>
+                <li>Machine Learning</li>
+                <li>Cloud Computing</li>
+                <li>Software Development</li>
+                <li>DevOps</li>
+                <li>AI and Data Science</li>
+                <li>Web Programming</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+
+            <div class="job">
+                <h3>Gertrude's Children's Hospital</h3>
+                <p><strong>Healthcare Technology Intern</strong> (Volunteer)</p>
+                <ul>
+                    <li>Assisted in developing and implementing healthcare technology solutions for improved patient care and hospital management.</li>
+                    <li>Collaborated with the IT department to maintain and update internal software systems.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Digital Nexus AI</h3>
+                <p><strong>Telegram Channel Content Manager (Marketing)</strong></p>
+                <ul>
+                    <li>Created and executed a content schedule focused on AI and data science topics, ranging from beginner to advanced levels.</li>
+                    <li>Engaged with the community to drive interest in AI and encourage learning through content marketing strategies.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>AI Chatbot</h3>
+                <p>A conversational AI chatbot developed using deep learning techniques. It was built to assist users in getting information through natural language processing.</p>
+            </div>
+
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>A personal portfolio website designed using HTML, CSS, and Flask to showcase my skills, education, and projects in web development and AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> <a href="mailto:jncheg@gmail.com">jncheg@gmail.com</a></p>
+            <p><strong>Phone:</strong> +254 712985749</p>
+            <p>Feel free to reach out to me for any opportunities or collaborations!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Joan Chege. All rights reserved.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
