@@ -45,3 +45,29 @@ body{
 {
     color: rgb(46, 146, 146);
 }
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700px;
+    color:rgb(46, 146, 146);
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-content .btn-box{
+    
+}
