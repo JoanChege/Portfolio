@@ -59,6 +59,7 @@ body{
 .home-content h1{
     font-size: 56px;
     font-weight: 700px;
+    line-height: 1.2;
 }
 .home-content h3{
     font-size: 32px;
@@ -67,7 +68,44 @@ body{
 }
 .home-content p{
     font-size: 20px;
+    margin: 20px 0 40px;
 }
 .home-content .btn-box{
-    
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+.btn-box a{
+    position: relative;
+    width: 150px;
+    height: 100%;
+    background: rgb(46, 146, 146);
+    border-radius: 8px;
+    border:2px solid rgb(46, 146, 146) ;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #3e5361;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
 }
