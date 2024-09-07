@@ -12,5 +12,15 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: ;
+    background-image: url('images/684574-black-cartoon-girl-wallpaper-top-free-black-cartoon-girl-background.webp');
+    background-size: 35% auto;
+    background-repeat: no-repeat;
+    background-position: center right;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
+
