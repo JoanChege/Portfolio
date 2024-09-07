@@ -39,6 +39,8 @@ body{
     margin-left: 35px;
 
 }
-.navbar a:hover{
+.navbar a:hover, 
+.navbar a.active
+{
     color: rgb(34, 34, 51);
 }
